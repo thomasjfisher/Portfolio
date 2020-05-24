@@ -22,9 +22,15 @@ Using multiple background images to create a diverse look but tying it together 
 
 Creating a 'home' icon at the top left of each screen the user can navigate to so that they can get back to the home page in one click.
 
+Creating icons that change colour when hovering, and linking to their relative destination. GitHub, LinkedIn, Twitter, my sites homepage are some that I have utilised in this project.
+
 
 
 ## Site Map
+
+In the original design of my wireframes, I wanted to make sure that my site was simple, elegant and functional. I created the webframes with that in mind which help guide my design of my site map. I again wanted to ensure that my work was accessible and easy to find and read.
+
+ 
 
 ![Thomas Fisher Portfolio - Site Map](/docs/sitemap.jpg)
 
@@ -32,9 +38,15 @@ Creating a 'home' icon at the top left of each screen the user can navigate to s
 
 ## Screenshots
 
-![Code, code, and more code!](/docs/code_code_code.jpg)
+![All I've looked at for the past 2 weeks](/src/img/portfolio_mobile.jpg)
 
+![Call me... Please](/src/img/call_me.jpg)
 
+![Code, code aaaand... more code](/src/img/code_code_code.jpg)
+
+![Blog Spot!](/src/img/blog_posts.jpg)
+
+![Trello](/src/img/trello.jpg)
 
 ## Target Audience
 
@@ -44,7 +56,7 @@ My target audience is future employers, fellow developers and friends. It is suc
 
 ## Tech Stack
 
-The skills I used throughout this project are: html5, css3, devtools, GitHub, Netlify, branching, Whimsical,  w3schools (a lot of w3schools), our Canvas lectures, powerpoint, Lucid Chart and ColorsInspo(colour pallets). I tried my hand at scss, but I think as I am still getting my head around the use of html and css, it was a bit much for me to squeeze all into one project at this time. 
+The skills I used throughout this project are: html5, css3, devtools, GitHub, Netlify, branching, fontawesome, Whimsical,  w3schools (a lot of w3schools), our Canvas lectures, powerpoint, Lucid Chart and ColorsInspo(colour pallets). I tried my hand at scss, but I think as I am still getting my head around the use of html and css, it was a bit much for me to squeeze all into one project at this time. 
 
 ## 
 
