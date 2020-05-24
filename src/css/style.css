@@ -1,3 +1,4 @@
+/****all****/
 *{
   margin: 0;
   padding: 0;
@@ -80,7 +81,7 @@ li{
   text-align: center;
 }
 
-/****Nav****/
+/****nav****/
 nav{
   height: 100px;
   line-height: 100px;
@@ -100,7 +101,7 @@ nav a:nth-child(2){
   float: right;
 }
 
-/****Header****/
+/****header****/
 header{
   margin: 50 0 50 0;
   text-align: center;
@@ -113,7 +114,7 @@ header a{
   color: white;
 }
 
-/****Work****/
+/****work****/
 .work{
   text-align: center;
   width: 100%;
@@ -123,6 +124,7 @@ header a{
   margin: 5px;
   width: 23%;
 }
+
 /****aboutMe****/
 .aboutMe{
   text-align: center;
@@ -146,21 +148,23 @@ header a{
   width: 70%;
   margin: 20px auto 20px auto;
   text-align: center;
-  min-height: 300px;
+  /* min-height: 300px;
+  min-width: 380px; */
 }
 .am_blog p{
   font-size: 20px;
   text-align: center;
   margin: 0 auto;
 }
-/****Blog****/
+
+/****blog****/
 .blog{
   width: 100%;
   text-align: center;
 }
 .blog a img{
   margin: 10px auto;
-  width: 100%;
+  width: 50%;
   margin: 0 auto;
   text-align: center;
 }
@@ -169,7 +173,7 @@ header a{
   text-align: center;
   margin: 0 auto;
 }
-/****Footer****/
+/****footer****/
 footer{
   text-align: center;
   margin: 60px 0;
@@ -228,62 +232,36 @@ footer p{
   text-align: center;
 }
 
+/****media****/
 
-
-/* 
-/* 
-/* media queries for responsive design */
-/* For mobile phones:
-[class*="col-"] {
-  width: 100%;
-}
-
-@media only screen and (min-width: 600px) {
-  For tablets:
-  .col-s-1 {width: 8.33%;}
-  .col-s-2 {width: 16.66%;}
-  .col-s-3 {width: 25%;}
-  .col-s-4 {width: 33.33%;}
-  .col-s-5 {width: 41.66%;}
-  .col-s-6 {width: 50%;}
-  .col-s-7 {width: 58.33%;}
-  .col-s-8 {width: 66.66%;}
-  .col-s-9 {width: 75%;}
-  .col-s-10 {width: 83.33%;}
-  .col-s-11 {width: 91.66%;}
-  .col-s-12 {width: 100%;}
-  #profile p{font-size: 1.7em;}
-  #profile .title{font-size: 3em;}
-  #profile .name{width: 388px;}
-  #profile img{width: 55%; margin: 0 23%;}
-  #projects h2{ font-size: 2em;}
-  #projects a{font-size: 1.8em; margin: 40%;}
-  #skills img{width: 90%; height: 90%;}
-  .skill{margin-left: 30px;}
-}
-@media only screen and (min-width: 769px) {
-  /* For desktop: */
-  /* .col-1 {width: 8.33%;}
-  .col-2 {width: 16.66%;}
-  .col-3 {width: 25%;}
-  .col-4 {width: 33.33%;}
-  .col-5 {width: 41.66%;}
-  .col-6 {width: 50%;}
-  .col-7 {width: 58.33%;}
-  .col-8 {width: 66.66%;}
-  .col-9 {width: 75%;}
-  .col-10 {width: 83.33%;}
-  .col-11 {width: 91.66%;}
-  .col-12 {width: 100%;}
-  .container {margin: 0px 150px;}
-  .project img{min-height:300px;}
-  #projects a{font-size: 1em;}
-  #projects{
-      min-height: 500px;
+@media only screen and (max-width:991px){
+  header p{
+    width: 100%;
   }
-  #skills img{width: 80%; height: 80%;} */
-
-} */
-
-
- */ */
+  .blog a img{
+     margin: 2%;
+     width: 80%;
+  }
+  .aboutMe a img{
+    margin: 2%;
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 768px){
+  header{
+    width: 96%;
+    margin: 30px auto 100px auto;
+    text-align: center;
+  }
+  .aboutMe{
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+  }
+  footer{
+    text-align: center;
+    width: 90%;
+    margin: 60px auto;
+  }
+}
