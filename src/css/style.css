@@ -9,29 +9,28 @@
   font-family: 'Noto Sans JP', sans-serif;
   text-decoration: none;
 }
+a:hover {
+  background-color: #808080;
+}
 a{
   color:black
 }
-/* body{
+#body {
   width: 100%;
-  background-image: url("/src/img/Coding_.jpg");
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
+  height: 100%;
+}
 .bg{
   width: 100%;
   background-image: url("/src/img/Coding_.jpg");
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 1;
 }
 .wrapper{
   width: 90%;
   margin: 0 auto;
 }
-.clearfix::after{
+.navigate::after{
   content: "";
   clear: both;
   display: table;
@@ -40,6 +39,7 @@ a{
   font-size: 100px;
   width: auto;
   text-align: center;
+  margin: 0 auto;
 }
 i{
   font-size: 40px;
@@ -123,49 +123,89 @@ header a{
   margin: 5px;
   width: 23%;
 }
-/****WhatIDo****/
-.whatido{
+/****aboutMe****/
+.aboutMe{
   text-align: center;
-  margin: 100px 0 200px 0;
+  margin: 100px 0 100px 0;
   position: relative;
 }
-.whatido h1{
+.aboutMe h1{
   color: white;
 }
-.iam{
-  color: rgb(61, 218, 33);
-  font-size: 150px;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%);
-  -webkit-transform: translateX(-50%);
-  top: -20px;
-  z-index:-1;
+.p{
+  font-size: 40px;
+  text-align: center;
+  margin: 10 auto;
 }
-/****Work2****/
-.work2{
+
+/****Blog****/
+.blog{
   width: 100%;
   text-align: center;
 }
-.work2 a img{
-  margin: 5px;
-  width: 20%;
+.blog a img{
+  margin: 10px auto;
+  width: 70%;
+}
+.blog p{
+  font-size: 20px;
+  text-align: center;
+  margin: 0 auto;
 }
 /****Footer****/
 footer{
   text-align: center;
   margin: 60px 0;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin: 0 auto;
 }
 footer p{
   color: white;
+  font-size: 20px;
+  text-align: center;
+  margin: 0 auto;
 }
 
+.container {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+}
 
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 15px auto;
+}
 
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+}
 
+.container:hover .overlay {
+  opacity: 1;
+}
 
-
-
-
-
-
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
