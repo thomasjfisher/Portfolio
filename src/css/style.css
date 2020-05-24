@@ -1,120 +1,166 @@
-/* step1*/
-/* aplly margin and padding 0 to all elements. */
-/* star means all elements */
-
 *{
-  
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  opacity: 1;
+  font-family: 'Noto Sans JP', sans-serif;
+  text-decoration: none;
 }
-
-.socials_home{
-  margin: 0px 20px;
+a{
+  color:black
 }
-
-i {
-  font-size: 100px;
-  color: #D13000;
-  width: auto;
-}
-
-.row{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-body{
-  font-family: 'Open Sans', sans-serif;
-}
-#profile{
-  background-color: white;
-  min-height: 600px;  
-}
-
-.title{
- text-align: center;
-}
-
-.img_center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-.name{
-  border: 5px solid transparent;
-  border-image-source: linear-gradient(to left, #F2B609, #D13000);
-  border-image-slice: 1;
-  margin: 50px auto;
-  width: 300px;
-  padding: 5px;
-}
-
-#profile img{
-  width: 70%;
-  min-height: 250px;
-  max-height: 400px;
-  margin: 0 15%;
-}
-
-#profile p{
-  /* margin: floor walls- knocked down lol? lighting */
-  margin: 20px;
-  line-height: 2;
-  text-align: justify;
-  @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-}
-
-
-
-/* media queries for responsive design */
-
-/* For mobile phones: */
-[class*="col-"] {
+/* body{
   width: 100%;
+  background-image: url("/src/img/Coding_.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+.bg{
+  width: 100%;
+  background-image: url("/src/img/Coding_.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+}
+.wrapper{
+  width: 90%;
+  margin: 0 auto;
+}
+.clearfix::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+.socials{
+  font-size: 100px;
+  width: auto;
+  text-align: center;
+}
+i{
+  font-size: 40px;
+  color: white;
+  width: auto;
+  text-align: center;
+}
+h1{
+  color: white;
+  font-size: 30px;
+  position: center;
+  margin: 0px;
+  padding: 20px;
+  text-align: center;
+}
+h2{
+  color: white;
+  font-size: 30px;
+  position: center;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+p{
+  color: white;
+  font-size: 50px;
+  width: 90%;
+  position: center;
+}
+ul{
+  list-style: none;
+  margin-top: 30px;
+}
+li{
+  color: white;
+  font-size: 20px;
+  margin: 20px;
+  text-align: center;
 }
 
-@media only screen and (min-width: 600px) {
-  /* For tablets: */
-  .col-s-1 {width: 8.33%;}
-  .col-s-2 {width: 16.66%;}
-  .col-s-3 {width: 25%;}
-  .col-s-4 {width: 33.33%;}
-  .col-s-5 {width: 41.66%;}
-  .col-s-6 {width: 50%;}
-  .col-s-7 {width: 58.33%;}
-  .col-s-8 {width: 66.66%;}
-  .col-s-9 {width: 75%;}
-  .col-s-10 {width: 83.33%;}
-  .col-s-11 {width: 91.66%;}
-  .col-s-12 {width: 100%;}
-  #profile p{font-size: 2em;}
-  #profile .title{font-size: 3em;}
-  #profile .name{width: 500px;}
-  #profile img{width: 40%; margin: 0 auto}
- 
+/****Nav****/
+nav{
+  height: 100px;
+  line-height: 100px;
+  font-size: 30px;
+  text-align: center;
 }
-@media only screen and (min-width: 769px) {
-  /* For desktop: */
-  .col-1 {width: 8.33%;}
-  .col-2 {width: 16.66%;}
-  .col-3 {width: 25%;}
-  .col-4 {width: 33.33%;}
-  .col-5 {width: 41.66%;}
-  .col-6 {width: 50%;}
-  .col-7 {width: 58.33%;}
-  .col-8 {width: 66.66%;}
-  .col-9 {width: 75%;}
-  .col-10 {width: 83.33%;}
-  .col-11 {width: 91.66%;}
-  .col-12 {width: 100%;}
-  .container{margin:0px 150px;}
+nav a{
+  color: white;
+  text-decoration: none;
 }
+nav a img{
+  vertical-align: middle;
+  max-height: 40px;
+  float: right;
+}
+nav a:nth-child(2){
+  float: right;
+}
+
+/****Header****/
+header{
+  margin: 50 0 50 0;
+  text-align: center;
+}
+header p{
+  width: 45%;
+  margin: 30px 50px 0 auto;  
+}
+header a{
+  color: white;
+}
+
+/****Work****/
+.work{
+  text-align: center;
+  width: 100%;
+  font-size: 90px;
+}
+.work a img{
+  margin: 5px;
+  width: 23%;
+}
+/****WhatIDo****/
+.whatido{
+  text-align: center;
+  margin: 100px 0 200px 0;
+  position: relative;
+}
+.whatido h1{
+  color: white;
+}
+.iam{
+  color: rgb(61, 218, 33);
+  font-size: 150px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  -webkit-transform: translateX(-50%);
+  top: -20px;
+  z-index:-1;
+}
+/****Work2****/
+.work2{
+  width: 100%;
+  text-align: center;
+}
+.work2 a img{
+  margin: 5px;
+  width: 20%;
+}
+/****Footer****/
+footer{
+  text-align: center;
+  margin: 60px 0;
+}
+footer p{
+  color: white;
+}
+
+
 
 
 
