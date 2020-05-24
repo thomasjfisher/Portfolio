@@ -137,7 +137,22 @@ header a{
   text-align: center;
   margin: 10 auto;
 }
-
+.am_blog{
+  width: 100%;
+  text-align: center;
+}
+.am_blog a img{
+  margin: 10px auto;
+  width: 70%;
+  margin: 20px auto 20px auto;
+  text-align: center;
+  min-height: 300px;
+}
+.am_blog p{
+  font-size: 20px;
+  text-align: center;
+  margin: 0 auto;
+}
 /****Blog****/
 .blog{
   width: 100%;
@@ -145,7 +160,9 @@ header a{
 }
 .blog a img{
   margin: 10px auto;
-  width: 70%;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
 }
 .blog p{
   font-size: 20px;
@@ -172,13 +189,14 @@ footer p{
   position: relative;
   width: 50%;
   margin: 0 auto;
+  display: block;
 }
 
 .image {
-  display: block;
+  margin: 10px auto;
   width: 100%;
-  height: auto;
-  margin: 15px auto;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .overlay {
@@ -209,3 +227,63 @@ footer p{
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
+
+
+/* 
+/* 
+/* media queries for responsive design */
+/* For mobile phones:
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  For tablets:
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+  #profile p{font-size: 1.7em;}
+  #profile .title{font-size: 3em;}
+  #profile .name{width: 388px;}
+  #profile img{width: 55%; margin: 0 23%;}
+  #projects h2{ font-size: 2em;}
+  #projects a{font-size: 1.8em; margin: 40%;}
+  #skills img{width: 90%; height: 90%;}
+  .skill{margin-left: 30px;}
+}
+@media only screen and (min-width: 769px) {
+  /* For desktop: */
+  /* .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+  .container {margin: 0px 150px;}
+  .project img{min-height:300px;}
+  #projects a{font-size: 1em;}
+  #projects{
+      min-height: 500px;
+  }
+  #skills img{width: 80%; height: 80%;} */
+
+} */
+
+
+ */ */
