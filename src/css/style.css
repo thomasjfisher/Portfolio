@@ -26,7 +26,7 @@ a{
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: ;
+  opacity: 1;
 }
 .wrapper{
   width: 90%;
@@ -292,7 +292,7 @@ footer p{
     width: 90%;
     margin: 0 auto;
   }
-  }
+  
   footer{
     text-align: center;
     width: 90%;
