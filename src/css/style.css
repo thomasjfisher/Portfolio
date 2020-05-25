@@ -157,6 +157,13 @@ header a{
   text-align: center;
   margin: 0 auto;
 }
+.about-bg{
+  width: 100%;
+  background-image:url("../img/Coding_.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 /****blog****/
 .blog{
@@ -175,7 +182,11 @@ header a{
   margin: 0 auto;
 }
 .blog-bg{
+  width: 100%;
   background-image:url("../img/laptop.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /****resume section***/
@@ -185,6 +196,15 @@ header a{
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+/****contactMe****/
+.contact-bg{
+  width: 100%;
+  background-image: url("../img/keyboard_bg.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 /****footer****/
