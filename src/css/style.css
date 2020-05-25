@@ -22,7 +22,7 @@ a{
 }
 .bg{
   width: 100%;
-  background-image: url("/src/img/bwmac.jpg");
+  background-image: url("../img/bwmac.jpg");
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
