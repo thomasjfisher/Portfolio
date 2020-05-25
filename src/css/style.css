@@ -22,7 +22,7 @@ a{
 }
 .bg{
   width: 100%;
-  background-image: url("/src/img/bwmac.jpg");
+  /* background-image: url("/src/img/bwmac.jpg"); */
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -173,6 +173,16 @@ header a{
   text-align: center;
   margin: 0 auto;
 }
+/****resume section***/
+resume-bg{
+  width: 100%;
+  background-color: blue;
+  /* background-image: url("../img/coding_backg.jpg"); */
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /****footer****/
 footer{
   text-align: center;
