@@ -50,6 +50,10 @@ In the original design of my wireframes, I wanted to make sure that my site was 
 
 ![Branching](/src/img/git_branching.jpg)
 
+![Screenshot of Resume from my iPhoneX](/src/img/resume_phone_view.jpg)
+
+^The above image is a screenshot from my phone. Google Chrome Dev Tools only linked and showed my resume when I was viewing as desktop view.
+
 
 
 ## Target Audience
