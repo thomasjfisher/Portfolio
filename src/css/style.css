@@ -14,7 +14,7 @@ a:hover {
   background-color: #a853a8;
 }
 a{
-  color:white;
+  color:black
 }
 #body {
   width: 100%;
@@ -67,9 +67,9 @@ h2{
 }
 p{
   color: white;
-  font-size: 50px;
+  font-size: 15px;
   width: 90%;
-  position: center;
+  text-align: center;
 }
 ul{
   list-style: none;
@@ -206,7 +206,7 @@ header a{
   background-size: cover;
 }
 /****footer****/
-.footer{
+footer{
   text-align: center;
   margin: 60px 0;
   color: white;
@@ -214,13 +214,7 @@ header a{
   text-align: center;
   margin: 0 auto;
 }
-.footer p{
-  color: white;
-  font-size: 20px;
-  text-align: center;
-  margin: 0 auto;
-}
-.footer a{
+footer p{
   color: white;
   font-size: 20px;
   text-align: center;
