@@ -52,7 +52,7 @@ In the original design of my wireframes, I wanted to make sure that my site was 
 
 ![Screenshot of Resume from my iPhoneX](/src/img/resume_phone_view.jpg)
 
-^The above image is a screenshot from my phone. Google Chrome Dev Tools only linked and showed my resume when I was viewing as desktop view.
+^The above image is a screenshot from my phone. Google Chrome Dev Tools only linked and showed my resume when I was viewing as desktop view, but it does work on iPhone and iPad, tested myself.
 
 
 
