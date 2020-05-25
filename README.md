@@ -4,7 +4,7 @@
 
 <a href="https://github.com/thomasjfisher/Thomas_Fisher_Portfolio_T1A2">Link to my GitHub</a>
 
-link to published website
+<a href="https://tfisher-portfolio.netlify.app/">Link to my Portfolio</a>
 
 
 
@@ -62,7 +62,7 @@ My target audience is future employers, fellow developers and friends. It is suc
 
 The skills I used throughout this project are: html5, css3, devtools, GitHub, Netlify, branching, fontawesome, Whimsical,  w3schools (a lot of w3schools), our Canvas lectures, powerpoint, Lucid Chart and ColorsInspo(colour pallets). I tried my hand at scss, but I think as I am still getting my head around the use of html and css, it was a bit much for me to squeeze all into one project at this time. 
 
-## 
+
 
 ## Thomas Fisher Portfolio - <a href="https://github.com/thomasjfisher/Thomas_Fisher_Portfolio_T1A2">GitHub</a>
 

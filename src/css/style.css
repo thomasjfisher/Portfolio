@@ -14,7 +14,7 @@ a:hover {
   background-color: #a853a8;
 }
 a{
-  color:black
+  color:white;
 }
 #body {
   width: 100%;
@@ -149,8 +149,6 @@ header a{
   width: 70%;
   margin: 20px auto 20px auto;
   text-align: center;
-  /* min-height: 300px;
-  min-width: 380px; */
 }
 .am_blog p{
   font-size: 20px;
@@ -208,7 +206,7 @@ header a{
   background-size: cover;
 }
 /****footer****/
-footer{
+.footer{
   text-align: center;
   margin: 60px 0;
   color: white;
@@ -216,54 +214,17 @@ footer{
   text-align: center;
   margin: 0 auto;
 }
-footer p{
+.footer p{
   color: white;
   font-size: 20px;
   text-align: center;
   margin: 0 auto;
 }
-
-.container {
-  position: relative;
-  width: 50%;
-  margin: 0 auto;
-  display: block;
-}
-
-.image {
-  margin: 10px auto;
-  width: 100%;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: black;
-}
-
-.container:hover .overlay {
-  opacity: 1;
-}
-
-.text {
+.footer a{
   color: white;
   font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
   text-align: center;
+  margin: 0 auto;
 }
 
 /****media****/
