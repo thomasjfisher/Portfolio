@@ -22,10 +22,11 @@ a{
 }
 .bg{
   width: 100%;
-  /* background-image: url("/src/img/bwmac.jpg"); */
+  background-image: url("/src/img/bwmac.jpg");
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
+  opacity: ;
 }
 .wrapper{
   width: 90%;
@@ -173,6 +174,10 @@ header a{
   text-align: center;
   margin: 0 auto;
 }
+.blog-bg{
+  background-image:url("../img/laptop.jpg");
+}
+
 /****resume section***/
 .resume-bg{
   width: 100%;
