@@ -11,7 +11,7 @@
   text-decoration: none;
 }
 a:hover {
-  background-color: #808080;
+  background-color: #a853a8;
 }
 a{
   color:black
@@ -22,7 +22,7 @@ a{
 }
 .bg{
   width: 100%;
-  background-image: url("/src/img/Coding_.jpg");
+  background-image: url("/src/img/bwmac.jpg");
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
