@@ -48,6 +48,10 @@ In the original design of my wireframes, I wanted to make sure that my site was 
 
 ![Trello](/src/img/trello.jpg)
 
+![Branching](/src/img/git_branching.jpg)
+
+
+
 ## Target Audience
 
 My target audience is future employers, fellow developers and friends. It is such a great way to show off work and previous projects to anyone who wants to see it, all with a few clicks or pushes of their fingers.
